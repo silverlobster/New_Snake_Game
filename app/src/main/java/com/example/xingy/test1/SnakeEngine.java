@@ -265,7 +265,7 @@ class SnakeEngine extends SurfaceView implements Runnable {
             canvas = surfaceHolder.lockCanvas();
 
             // Fill the screen with Game Code School blue
-            canvas.drawColor(Color.argb(255, 0, 0,0));
+            canvas.drawColor(Color.argb(255, 0, 0,255));
 
             // Set the color of the paint to draw the snake white
             paint.setColor(Color.argb(255, 0, 255, 0));
